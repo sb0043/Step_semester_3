@@ -7,12 +7,7 @@ public class BookInventory {
 
     public BookInventory(int copiesTotal) {
         this.copiesTotal = copiesTotal;
-
-        if (copiesTotal < 0) {
-            this.copiesAvailable = 0;
-        } else {
-            this.copiesAvailable = copiesTotal;
-        }
+        this.copiesAvailable = copiesTotal;
     }
 
     public void checkOut() {
