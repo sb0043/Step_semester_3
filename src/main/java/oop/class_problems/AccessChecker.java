@@ -6,20 +6,30 @@ public class AccessChecker {
                                         String accessorContext) {
 
         if (fieldModifier.equals("private")) {
-            return accessorContext.equals("SAME_CLASS")
-                    ? "ALLOWED" : "DENIED";
+            if (accessorContext.equals("SAME_CLASS")) {
+                return "ALLOWED";
+            } else {
+                return "DENIED";
+            }
         }
 
         if (fieldModifier.equals("default")) {
-            return accessorContext.equals("SAME_CLASS")
-                    || accessorContext.equals("SAME_PACKAGE")
-                    ? "ALLOWED" : "DENIED";
+            if (accessorContext.equals("SAME_CLASS")
+                    || accessorContext.equals("SAME_PACKAGE")) {
+                return "ALLOWED";
+            } else {
+                return "DENIED";
+            }
         }
 
         if (fieldModifier.equals("protected")) {
-            return accessorContext.equals("SAME_CLASS")
+            if (accessorContext.equals("SAME_CLASS")
                     || accessorContext.equals("SAME_PACKAGE")
-                    ? "ALLOWED" : "DENIED";
+                    || accessorContext.equals("SUBCLASS_DIFFERENT_PACKAGE_OWN_TYPE")) {
+                return "ALLOWED";
+            } else {
+                return "DENIED";
+            }
         }
 
         if (fieldModifier.equals("public")) {
@@ -33,10 +43,13 @@ public class AccessChecker {
 
         int privateAllowed = 0;
         int privateDenied = 0;
+
         int defaultAllowed = 0;
         int defaultDenied = 0;
+
         int protectedAllowed = 0;
         int protectedDenied = 0;
+
         int publicAllowed = 0;
         int publicDenied = 0;
 
@@ -82,5 +95,23 @@ public class AccessChecker {
                 + protectedDenied + " denied | "
                 + "public: " + publicAllowed + " allowed / "
                 + publicDenied + " denied";
+    }
+
+    public static String firstDeniedAttempt(String[][] attempts) {
+
+        for (int i = 0; i < attempts.length; i++) {
+
+            String modifier = attempts[i][0];
+            String context = attempts[i][1];
+
+            String result = classifyAccess(modifier, context);
+
+            if (result.equals("DENIED")) {
+                return modifier + " via " + context
+                        + " (attempt #" + (i + 1) + ")";
+            }
+        }
+
+        return "None Denied";
     }
 }
