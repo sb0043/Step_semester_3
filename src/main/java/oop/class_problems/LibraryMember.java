@@ -39,7 +39,8 @@ class AccessChecker {
 
         if (fieldModifier.equals("protected")) {
             if (accessorContext.equals("SAME_CLASS")
-                    || accessorContext.equals("SAME_PACKAGE")) {
+                    || accessorContext.equals("SAME_PACKAGE")
+                    || accessorContext.equals("SUBCLASS_DIFFERENT_PACKAGE_OWN_TYPE")) {
                 return "ALLOWED";
             }
             return "DENIED";
