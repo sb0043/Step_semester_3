@@ -1,4 +1,6 @@
-\## Date: 8 - 08 -2026
+\## Date: 08-08-2026
+
+
 
 \*\*Today's Work:\*\*
 
@@ -13,6 +15,34 @@
 \*\*Next Session Plan:\*\*
 
 \- Create feature/session\_3 from develop and begin Session 3 coursework.
+
+
+
+\*\*Issues Faced:\*\*
+
+\- None
+
+
+
+\---
+
+
+
+\## Date: 01-08-2026
+
+
+
+\*\*Today's Work:\*\*
+
+\- Completed Session 1 Week 1 practice problems and assignment problems.
+
+\- Committed the problems individually to feature/session\_1.
+
+
+
+\*\*Next Session Plan:\*\*
+
+\- Create feature/session\_2 from develop and begin Session 2 coursework.
 
 
 
