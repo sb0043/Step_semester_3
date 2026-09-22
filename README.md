@@ -1,3 +1,20 @@
+# Step Semester 3
+
+## Date: 05-09-2026
+**Today's Work:**
+- Completed Session 5 Week 5 practice problems covering access control, inheritance, encapsulation, JavaBeans, immutability, defensive copying, and instanceof.
+- Completed Session 5 Week 5 assignment problems covering access control, subclass reach, encapsulation, JavaBeans, immutability, static blocks, defensive copying, and instanceof.
+- Tested all 10 Java programs successfully.
+- Committed and pushed each problem individually to feature/session_5.
+
+**Next Session Plan:**
+- Continue with the next scheduled Semester 3 session.
+
+**Issues Faced:**
+- None
+
+---
+
 ## Date: 29-09-2026
 **Today's Work:**
 - Completed Session 4 practice problems covering constructors, this, final, static blocks, arrays, loops, and instanceof.
