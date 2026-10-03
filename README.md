@@ -1,5 +1,19 @@
 # Step Semester 3
 
+## Date: 12-09-2026
+**Today's Work:**
+- Completed Session 6 Week 6 practice problems covering inheritance, constructors, method overriding, instanceof, polymorphism, static members, final members, overloaded methods, and defensive copying.
+- Completed Session 6 assignment problems covering gym membership inheritance, polymorphism, late-fee handling, attendance processing, membership numbers, referral codes, and weekly check-in settlement.
+- Tested all 10 Java programs successfully.
+- Committed and pushed each problem individually to feature/session_6.
+
+**Next Session Plan:**
+- Continue with the next scheduled Semester 3 session.
+
+**Issues Faced:**
+- None
+
+---
 ## Date: 05-09-2026
 **Today's Work:**
 - Completed Session 5 Week 5 practice problems covering access control, inheritance, encapsulation, JavaBeans, immutability, defensive copying, and instanceof.
