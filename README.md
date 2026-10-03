@@ -1,6 +1,19 @@
 # Step Semester 3
 
-## Date: 19-09-2026
+## Date: 26-09-2026
+**Today's Work:**
+- Completed Session 8 Week 8 practice problems covering abstraction, inheritance, polymorphism, interfaces, state management, validation, and payment processing.
+- Completed Session 8 assignment problems covering interfaces, abstract classes, polymorphism, encapsulation, state transitions, pricing strategies, and notification channels.
+- Tested all 10 Java programs successfully.
+- Committed and pushed each problem individually to feature/session_8.
+
+**Next Session Plan:**
+- Continue with the next scheduled Semester 3 session.
+
+**Issues Faced:**
+- None
+
+---## Date: 19-09-2026
 **Today's Work:**
 - Completed Session 7 Week 7 practice problems covering abstract classes, interfaces, inheritance, method overriding, constructors, JavaBeans, validation, polymorphism, and overloaded methods.
 - Completed Session 7 assignment problems covering interfaces, abstract classes, static members, final members, inheritance, method overriding, overloaded methods, and instanceof.
