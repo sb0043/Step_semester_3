@@ -1,24 +1,26 @@
 # Step Semester 3
 
+## Date: 03-10-2026
+**Today's Work:**
+- Completed Session 9 practice problems covering binary search, 2D array processing, hash-based pair searching, two-pointer technique, and container area calculation.
+- Completed Session 9 assignment problems covering array merging, hash map frequency counting, sliding window processing, binary search, and array-based problem solving.
+- Tested all 10 Java programs successfully.
+- Committed and pushed each problem individually to `feature/session_9`.
+
+**Next Session Plan:**
+- Continue with the next scheduled Semester 3 session.
+
+**Issues Faced:**
+- None
+
+---
+
 ## Date: 26-09-2026
 **Today's Work:**
-- Completed Session 8 Week 8 practice problems covering abstraction, inheritance, polymorphism, interfaces, state management, validation, and payment processing.
+- Completed Session 8 practice problems covering abstraction, inheritance, polymorphism, interfaces, state management, validation, and payment processing.
 - Completed Session 8 assignment problems covering interfaces, abstract classes, polymorphism, encapsulation, state transitions, pricing strategies, and notification channels.
 - Tested all 10 Java programs successfully.
-- Committed and pushed each problem individually to feature/session_8.
-
-**Next Session Plan:**
-- Continue with the next scheduled Semester 3 session.
-
-**Issues Faced:**
-- None
-
----## Date: 19-09-2026
-**Today's Work:**
-- Completed Session 7 Week 7 practice problems covering abstract classes, interfaces, inheritance, method overriding, constructors, JavaBeans, validation, polymorphism, and overloaded methods.
-- Completed Session 7 assignment problems covering interfaces, abstract classes, static members, final members, inheritance, method overriding, overloaded methods, and instanceof.
-- Tested all 10 Java programs successfully.
-- Committed and pushed each problem individually to feature/session_7.
+- Committed and pushed each problem individually to `feature/session_8`.
 
 **Next Session Plan:**
 - Continue with the next scheduled Semester 3 session.
@@ -27,12 +29,27 @@
 - None
 
 ---
+
+## Date: 19-09-2026
+**Today's Work:**
+- Completed Session 7 practice problems covering abstract classes, interfaces, inheritance, method overriding, constructors, JavaBeans, validation, polymorphism, and overloaded methods.
+- Completed Session 7 assignment problems covering interfaces, abstract classes, inheritance, polymorphism, method overriding, and object-oriented design.
+- Tested all 10 Java programs successfully.
+- Committed and pushed each problem individually to `feature/session_7`.
+
+**Next Session Plan:**
+- Continue with the next scheduled Semester 3 session.
+
+**Issues Faced:**
+- None
+
+---
+
 ## Date: 12-09-2026
 **Today's Work:**
-- Completed Session 6 Week 6 practice problems covering inheritance, constructors, method overriding, instanceof, polymorphism, static members, final members, overloaded methods, and defensive copying.
-- Completed Session 6 assignment problems covering gym membership inheritance, polymorphism, late-fee handling, attendance processing, membership numbers, referral codes, and weekly check-in settlement.
+- Completed Session 6 practice and assignment problems covering inheritance, polymorphism, abstract classes, and object-oriented programming concepts.
 - Tested all 10 Java programs successfully.
-- Committed and pushed each problem individually to feature/session_6.
+- Committed and pushed each problem individually to `feature/session_6`.
 
 **Next Session Plan:**
 - Continue with the next scheduled Semester 3 session.
@@ -41,12 +58,12 @@
 - None
 
 ---
+
 ## Date: 05-09-2026
 **Today's Work:**
-- Completed Session 5 Week 5 practice problems covering access control, inheritance, encapsulation, JavaBeans, immutability, defensive copying, and instanceof.
-- Completed Session 5 Week 5 assignment problems covering access control, subclass reach, encapsulation, JavaBeans, immutability, static blocks, defensive copying, and instanceof.
+- Completed Session 5 practice and assignment problems covering access control, inheritance, final classes, immutability, and JavaBeans.
 - Tested all 10 Java programs successfully.
-- Committed and pushed each problem individually to feature/session_5.
+- Committed and pushed each problem individually to `feature/session_5`.
 
 **Next Session Plan:**
 - Continue with the next scheduled Semester 3 session.
@@ -58,10 +75,9 @@
 
 ## Date: 29-09-2026
 **Today's Work:**
-- Completed Session 4 practice problems covering constructors, this, final, static blocks, arrays, loops, and instanceof.
-- Completed Session 4 assignment problems covering constructor chaining, this keyword, final methods, static blocks, and instanceof.
+- Completed Session 4 practice and assignment problems covering classes, objects, constructors, static members, and basic Java processing.
 - Tested all 10 Java programs successfully.
-- Committed and pushed each problem individually to feature/session_4.
+- Committed and pushed each problem individually to `feature/session_4`.
 
 **Next Session Plan:**
 - Continue with the next scheduled Semester 3 session.
@@ -73,12 +89,12 @@
 
 ## Date: 22-08-2026
 **Today's Work:**
-- Completed Session 3 Week 3 practice problems and assignment problems.
-- Committed the problems individually to feature/session_3.
-- Verified that all programs compiled and ran successfully.
+- Completed Session 3 practice and assignment problems covering classes, constructors, encapsulation, static members, and object-oriented programming basics.
+- Tested all 10 Java programs successfully.
+- Committed and pushed each problem individually to `feature/session_3`.
 
 **Next Session Plan:**
-- Continue with the next session's practice problems and assignment problems.
+- Continue with the next scheduled Semester 3 session.
 
 **Issues Faced:**
 - None
@@ -87,12 +103,12 @@
 
 ## Date: 08-08-2026
 **Today's Work:**
-- Completed Session 2 Week 2 practice problems and assignment problems.
-- Committed the problems individually to feature/session_2.
-- Verified the project structure and ensured no .class files were committed.
+- Completed Session 2 practice and assignment problems covering strings, validation, parsing, formatting, and file-related processing.
+- Tested all 10 Java programs successfully.
+- Committed and pushed each problem individually to `feature/session_2`.
 
 **Next Session Plan:**
-- Continue with Session 3 Week 3 practice problems and assignment problems.
+- Continue with the next scheduled Semester 3 session.
 
 **Issues Faced:**
 - None
@@ -101,11 +117,12 @@
 
 ## Date: 01-08-2026
 **Today's Work:**
-- Completed Session 1 Week 1 practice problems and assignment problems.
-- Committed the problems individually to feature/session_1.
+- Completed Session 1 practice and assignment problems covering basic Java programming, conditions, loops, strings, arrays, and problem solving.
+- Tested all 10 Java programs successfully.
+- Committed and pushed each problem individually to `feature/session_1`.
 
 **Next Session Plan:**
-- Continue with Session 2 Week 2 practice problems and assignment problems.
+- Continue with the next scheduled Semester 3 session.
 
 **Issues Faced:**
 - None
