@@ -1,5 +1,4 @@
 # Step Semester 3
-# Step Semester 3
 
 ## Date: 10-10-2026
 
