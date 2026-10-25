@@ -15,14 +15,9 @@ class ClubMember {
 
     @Override
     public boolean equals(Object obj) {
-        if (this == obj) {
-            return true;
-        }
-
         if (!(obj instanceof ClubMember)) {
             return false;
         }
-
         ClubMember other = (ClubMember) obj;
         return rollNumber.equals(other.rollNumber);
     }
@@ -39,17 +34,14 @@ public class StudentClubRegistration {
         List<ClubMember> members = new ArrayList<>();
         List<String> containsResults = new ArrayList<>();
 
-        while (sc.hasNextLine()) {
-            String line = sc.nextLine().trim();
+        for (int command = 0; command < 5; command++) {
+            String operation = sc.next();
 
-            if (line.isEmpty()) {
-                continue;
-            }
+            if (operation.equalsIgnoreCase("ADD")) {
+                String rollNumber = sc.next();
+                String name = sc.next();
 
-            String[] parts = line.split("\\s+");
-
-            if (parts[0].equalsIgnoreCase("ADD") && parts.length == 3) {
-                ClubMember member = new ClubMember(parts[1], parts[2]);
+                ClubMember member = new ClubMember(rollNumber, name);
 
                 if (members.contains(member)) {
                     System.out.println("duplicate rejected");
@@ -57,9 +49,11 @@ public class StudentClubRegistration {
                     members.add(member);
                     System.out.println("Added");
                 }
-            } else if (parts[0].equalsIgnoreCase("CONTAINS")
-                    && parts.length == 3) {
-                ClubMember member = new ClubMember(parts[1], parts[2]);
+            } else if (operation.equalsIgnoreCase("CONTAINS")) {
+                String rollNumber = sc.next();
+                String name = sc.next();
+
+                ClubMember member = new ClubMember(rollNumber, name);
                 containsResults.add("contains: " + members.contains(member));
             }
         }
