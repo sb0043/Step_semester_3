@@ -1,4 +1,16 @@
 # Step Semester 3
+# Step Semester 3
+
+## Date: 10-10-2026
+
+**Today's Work:**
+
+- Completed Session 10 practice problems covering bank account withdrawals, campus vehicle passes, student club registration, class marks grid analysis, and payroll register.
+- Completed Session 10 assignment problems covering priority token insertion, cancelled orders cleanup, queue reversal, train coaches in both directions, and round-robin game turns.
+- Tested all 10 Java programs successfully.
+- Committed and pushed each problem individually to `feature/session_10`.
+
+
 
 ## Date: 03-10-2026
 **Today's Work:**
